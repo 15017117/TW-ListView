@@ -17,9 +17,10 @@ public class FirstActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+       lv =(ListView)this.findViewById(R.id.lvModules)
 
 
-        al = new ArrayList<String>();
+        al = new ArrayList<Module>();
         al.add("Year 1");
 
 
